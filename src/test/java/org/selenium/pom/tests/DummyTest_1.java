@@ -1,4 +1,4 @@
 package org.selenium.pom.tests;
 
-public class DummyTest {
+public class DummyTest_1 {
 }
