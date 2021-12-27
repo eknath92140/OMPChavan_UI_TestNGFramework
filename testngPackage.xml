@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite 1" verbose="1" >
-    <test name="CHROME"  thread-count="3" parallel="methods" >
+    <test name="CHROME"  thread-count="4" parallel="methods" >
         <parameter name="browser" value="CHROME"></parameter>
         <packages>
             <package name="org.selenium.pom.tests"></package>
