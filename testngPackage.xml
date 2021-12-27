@@ -1,11 +1,11 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite 1" verbose="1" thread-count="2" parallel="tests">
     <test name="CHROME"  thread-count="6" parallel="methods" >
         <parameter name="browser" value="CHROME"></parameter>
-        <classes>
-            <class name="org.selenium.pom.tests.AddToCartTest"></class>
-        </classes>
+        <packages>
+            <package name="org.selenium.pom.tests"></package>
+        </packages>
     </test>
    <!-- <test name="FIREFOX" thread-count="2" parallel="methods"  >
 

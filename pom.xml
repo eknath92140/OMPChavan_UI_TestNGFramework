@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <aspectj.version>1.9.6</aspectj.version>
+        <aspectj.version>1.9.7</aspectj.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <suitefile>testngPackage.xml</suitefile>
     </properties>
