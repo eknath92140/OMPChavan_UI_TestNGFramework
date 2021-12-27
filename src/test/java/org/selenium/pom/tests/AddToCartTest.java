@@ -29,7 +29,7 @@ public class AddToCartTest extends BaseTest {
        CartPage cartPage= new StorePage(getDriver()).load()
                .getProductThumbnail().clickAddToCartBtn(product.getName())
                .clickViewCart();
-        Assert.assertEquals(cartPage.getProductName(),product.getName()+"Test");
+        Assert.assertEquals(cartPage.getProductName(),product.getName());
     }
 
     @Test(dataProvider = "getFeaturedProduct", dataProviderClass = MyDataProviders.class)
