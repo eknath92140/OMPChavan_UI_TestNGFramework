@@ -60,7 +60,7 @@ public class BaseTest {
     public synchronized void startDriver(@Optional String localBrowser){
 
         String browser = System.getProperty("browser",localBrowser);
-        if(browser == null) browser="CHROME";
+       // if(browser == null) browser="CHROME";
 
         //setDriver(new DriverManagerOriginal().initializeDriver(browser));
         // using Factory Design pattern using Interface , we create required browser object below
